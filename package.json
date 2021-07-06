@@ -1,0 +1,22 @@
+{
+  "name": "notes-app-backend",
+  "version": "1.0.0",
+  "description": "Latihan membuat aplikasi TODO List (backend)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "Achmad Kamil",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-react": "^7.24.0",
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "nanoid": "^3.1.23"
+  }
+}
